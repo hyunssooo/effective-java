@@ -6,9 +6,6 @@ class NutritionFactsTest {
 
     @Test
     void create() {
-        NutritionFacts nutritionFacts = NutritionFacts.builder(10, 20)
-                .sodium(1)
-                .calories(10)
-                .build();
+        NutritionFacts builder = NutritionFacts.builder().build();
     }
 }
